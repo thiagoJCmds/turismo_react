@@ -1,13 +1,16 @@
-import { Title, Hd, Container, Li } from "./Styles"
+import { Title, Hd, Container, Li, Ancora,Hdl } from "./Styles"
 
 const Header = () => (
     <>
         <Hd>
             <Container>
                 <Title>TMS Turismo</Title>
+            <Hdl>
+                <Ancora>Quem somos</Ancora>
+                <Ancora>Contato</Ancora>
+            </Hdl>    
             </Container>
-            <Container tamanho='45px' largura='890px' borda='solid 1 px black'>
-                
+            <Container tamanho='45px' largura='890px' borda='solid 0 px'>
                     <Li>
                         PACOTES
                     </Li>   
@@ -23,7 +26,6 @@ const Header = () => (
                     <Li>
                         OUTROS PAÍSES
                     </Li>    
-             
             </Container>
         </Hd>
     </>

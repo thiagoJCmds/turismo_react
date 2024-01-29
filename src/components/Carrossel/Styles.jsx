@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const MoveImage = styled.div`
 width: 100%;
 max-width: 100% vh;
-margin: 50px auto;
+margin: 0px auto;
 
 img{
     width: 100%;

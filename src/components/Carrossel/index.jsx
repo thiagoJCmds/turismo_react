@@ -14,7 +14,7 @@ const Carrossel = () =>(
     <Swiper
     slidesPerView={1}
     pagination={{clickable:true}}
-    navigation
+
     autoplay={{delay:5000}}>
         {data.map((item) =>(
                <SwiperSlide key={item.id}>

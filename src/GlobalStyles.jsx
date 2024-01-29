@@ -7,8 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-    max-width: 1024;
+  
     width: 100%;
+   
     font-family: 'roboto', sans-serif;
+    background-color: #e5ecf3;
   }
 `
