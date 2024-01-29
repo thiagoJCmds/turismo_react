@@ -1,5 +1,6 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { MoveImage } from './Styles';
+import {EffectFade} from 'swiper/modules'
 
 const data = [
     {id: '1', image:"https://img.freepik.com/fotos-gratis/praia-tropical_74190-188.jpg"},
@@ -12,10 +13,11 @@ const Carrossel = () =>(
     
 <MoveImage>
     <Swiper
+    modules={[EffectFade]}
     slidesPerView={1}
     pagination={{clickable:true}}
-
-    autoplay={{delay:5000}}>
+    autoplay={{delay:5000}}
+    effect='fade'>
         {data.map((item) =>(
                <SwiperSlide key={item.id}>
                 <img src={item.image}/>
