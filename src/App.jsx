@@ -2,7 +2,7 @@ import { GlobalStyle } from "./GlobalStyles"
 import Header from "./components/Header"
 import Carrossel from "./components/Carrossel"
 import Footer from "./components/Fotter"
-import Section from "./components/Carrossel/Section"
+import Section from "./components/Section"
 
 function App() {
   

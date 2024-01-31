@@ -12,7 +12,7 @@ const Section = ()=> (
                </Description>
                <Description2>
                     A partir de<br/>
-                    R$ 1.500,00
+                    R$ 15.000,00
                </Description2>
                 <Description3>
                     Confira
@@ -27,7 +27,7 @@ const Section = ()=> (
                </Description>
                <Description2>
                     A partir de<br/>
-                    R$ 1.500,00
+                    R$ 17.000,00
                </Description2>
                 <Description3>
                     Confira
@@ -42,7 +42,7 @@ const Section = ()=> (
                </Description>
                <Description2>
                     A partir de<br/>
-                    R$ 1.500,00
+                    R$ 15.000,00
                </Description2>
                 <Description3>
                     Confira
