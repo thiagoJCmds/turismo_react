@@ -4,14 +4,20 @@ export const Hd = styled.header`
 height: 130px;
 background-color: #fff;
 @media(max-width:480px){
-    height: 250px;
+    height: 145px;
+}    
+@media (min-width:481px) and (max-width:740px){   
+    max-width: 100%;
+    padding: 0 20px;
+
 }
 `
 export const Hdl = styled.div`
 display: flex;
 @media(max-width:480px){
     display: block;
-}
+}    
+
 `
 export const Title = styled.h1`
 color: #047bfa;
@@ -51,6 +57,9 @@ export const Li = styled.li`
 font-weight: bold;
 list-style: none;
 color: #047bfa;
+@media(max-width:480px){
+    font-size: 8px;
+}
 `
 export const Ancora = styled.a`
 text-decoration: none;
