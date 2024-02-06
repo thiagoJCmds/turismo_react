@@ -69,22 +69,16 @@ padding: 30px 0;
     align-items: center;
     border: none;
 }
-@media (max-width:740px ){
-   width: 100%;
-    max-width: 85%;
-    
-    margin: 1;
+
+@media (max-width:925px) and ( orientation: landscape) {
+   
+    max-width: 925px;
+    width: 100%;
+    margin-left:9% ;
+    border: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
     row-gap: 25px;
 }
-@media (min-width:665px ){
-   width: 100%;
-    max-width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 25px;
-}
+
 `
