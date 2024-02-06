@@ -11,7 +11,9 @@ padding: 10px;
 @media(max-width:480px){
  margin-bottom: 15px ;
 }
-
+@media (max-width:925px) and ( orientation: landscape){
+    margin: 10px;
+}
 `
 export const InCard = styled.div`
 
@@ -63,22 +65,21 @@ border-bottom: solid 1px #eed289;
 padding: 30px 0;
 @media(max-width:480px){
     max-width: 480px;
-    width: 100%;
-    margin: 10%;
-    display: block;
-    align-items: center;
+    width: 100vw;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
     border: none;
+    text-align: center;
 }
 
 @media (max-width:925px) and ( orientation: landscape) {
-   
+    
     max-width: 925px;
-    width: 100%;
-    margin-left:9% ;
+    width: 100vw;
+    margin: auto ;
+    flex-wrap: wrap;
+    justify-content: center;
     border: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 25px;
 }
-
 `

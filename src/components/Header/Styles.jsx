@@ -6,10 +6,10 @@ background-color: #fff;
 @media(max-width:480px){
     height: 145px;
 }    
-@media (min-width:481px) and (max-width:740px){   
+@media (min-width:481px) and (max-width:907px){   
     max-width: 100%;
     padding: 0 20px;
-
+    
 }
 `
 export const Hdl = styled.div`
@@ -24,7 +24,7 @@ color: #047bfa;
 font-family: 'Mochiy Pop P One', sans-serif;
 @media(max-width:480px){
     font-size: 30px;
-} 
+}
 `
 export const Container = styled.div`
 max-width: ${(prop) => prop.largura ? prop.largura : '1024px'};
@@ -36,12 +36,14 @@ align-items: center;
 justify-content: space-between;
 border-bottom:${(prop) => prop.borda ? prop.borda : 'solid 1px #eed289'};
 
+
 @media (max-width: 480px){
 padding: 0 15px;
 max-width: 480px;
 width: 100%;
 border: none;
 }
+
 `
 
 
