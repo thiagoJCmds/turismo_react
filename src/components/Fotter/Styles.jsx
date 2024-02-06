@@ -18,6 +18,9 @@ display: flex;
 
 export const RodapeMessage = styled.p`
 color: #fff;
+@media(max-width:480px){
+    margin-left: 5px;
+}
 @media(max-width:907px) and (orientation:landscape){
     font-size: 12px;
     margin-left: 8px;
